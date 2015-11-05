@@ -1,8 +1,6 @@
 ﻿/*globals describe, it, beforeEach, afterEach */
 
-var assert = require("assert"),
-    fs = require('fs'),
-    path = require("path"),
+var path = require("path"),
     _ = require("underscore"),
     describeReporting = require("../../../test/helpers.js").describeReporting;
 

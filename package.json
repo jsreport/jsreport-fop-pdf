@@ -13,6 +13,7 @@
   "dependencies": {
     "q": "^1.4.1",
     "q-io": "^1.13.1",
+    "shortid": "^2.2.4",
     "underscore": "^1.8.3"
   },
   "author": "Jan Blaha",

@@ -5,6 +5,11 @@
   "scripts": {
     "test": "mocha test"
   },
+  "homepage": "https://github.com/jsreport/jsreport-fop-pdf",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:jsreport/jsreport-fop-pdf.git"
+  },
   "keywords": [
     "jsreport",
     "fop"

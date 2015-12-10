@@ -1,6 +1,5 @@
 # jsreport-phantom-pdf
-[![NPM Version](http://img.shields.io/npm/v/jsreport-phantom-pdf.svg?style=flat-square)](https://npmjs.com/package/jsreport-phantom-pdf)
-[![Build Status](https://travis-ci.org/jsreport/jsreport-phantom-pdf.png?branch=master)](https://travis-ci.org/jsreport/jsreport-phantom-pdf)
+[![NPM Version](http://img.shields.io/npm/v/jsreport-fop-pdf.svg?style=flat-square)](https://npmjs.com/package/jsreport-fop-pdf)
 
 jsreport recipe which is rendering pdf using [apache fop](https://xmlgraphics.apache.org/fop/)
 
@@ -10,7 +9,7 @@ See http://jsreport.net/learn/fop-pdf
 > npm install jsreport-fop-pdf
 
 ##Usage
-To use `recipe` in for template rendering set `template.recipe=phantom-pdf` in the rendering request.
+To use `recipe` in for template rendering set `template.recipe=fop-pdf` in the rendering request.
 
 ```js
 {

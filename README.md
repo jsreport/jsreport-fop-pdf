@@ -1,4 +1,4 @@
-# jsreport-phantom-pdf
+# jsreport-fop-pdf
 [![NPM Version](http://img.shields.io/npm/v/jsreport-fop-pdf.svg?style=flat-square)](https://npmjs.com/package/jsreport-fop-pdf)
 
 jsreport recipe which is rendering pdf using [apache fop](https://xmlgraphics.apache.org/fop/)

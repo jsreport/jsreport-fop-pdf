@@ -1,7 +1,7 @@
 {
   "name": "jsreport-fop-pdf",
   "version": "0.2.0",
-  "description": "jsreport recipe which is rendering pdf using apache fop", 
+  "description": "jsreport recipe which is rendering pdf using apache fop",
   "homepage": "https://github.com/jsreport/jsreport-fop-pdf",
   "repository": {
     "type": "git",
@@ -11,13 +11,27 @@
     "jsreport",
     "fop"
   ],
+  "scripts": {
+    "test": "mocha test --timeout 7000 && standard"
+  },
+  "standard": {        
+    "env": {
+      "node": true,
+      "mocha": true    
+    }
+  },
   "license": "LGPL",
   "dependencies": {
-    "q": "1.4.1",
-    "q-io": "1.13.1",
+    "bluebird": "3.4.7",
     "shortid": "2.2.4",
     "underscore": "1.8.3"
   },
   "author": "Jan Blaha",
-  "devDependencies": {}
+  "devDependencies": {
+    "eslint": "3.14.1",
+    "jsreport-core": "1.1.0",
+    "mocha": "3.2.0",
+    "should": "11.2.0",
+    "standard": "8.6.0"
+  }
 }

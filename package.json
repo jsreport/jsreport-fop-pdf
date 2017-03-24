@@ -12,12 +12,13 @@
     "fop"
   ],
   "scripts": {
+    "start": "jsreport-studio-start --httpPort 5488",
     "test": "mocha test --timeout 7000 && standard"
   },
-  "standard": {        
+  "standard": {
     "env": {
       "node": true,
-      "mocha": true    
+      "mocha": true
     }
   },
   "license": "LGPL",
@@ -30,6 +31,7 @@
   "devDependencies": {
     "eslint": "3.14.1",
     "jsreport-core": "1.1.0",
+    "jsreport-studio-dev": "1.0.2",
     "mocha": "3.2.0",
     "should": "11.2.0",
     "standard": "8.6.0"

@@ -24,8 +24,7 @@
   "license": "LGPL",
   "dependencies": {
     "bluebird": "3.4.7",
-    "shortid": "2.2.4",
-    "underscore": "1.8.3"
+    "uuid": "3.0.1"
   },
   "author": "Jan Blaha",
   "devDependencies": {

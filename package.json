@@ -1,6 +1,6 @@
 {
   "name": "jsreport-fop-pdf",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "jsreport recipe which is rendering pdf using apache fop",
   "homepage": "https://github.com/jsreport/jsreport-fop-pdf",
   "repository": {

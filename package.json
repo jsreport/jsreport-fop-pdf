@@ -23,7 +23,7 @@
   },
   "license": "LGPL",
   "dependencies": {
-    "bluebird": "3.4.7",
+    "bluebird": "3.5.0",
     "uuid": "3.0.1"
   },
   "author": "Jan Blaha",

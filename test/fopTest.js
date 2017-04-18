@@ -4,7 +4,7 @@ var path = require('path')
 
 var Reporter = require('jsreport-core').Reporter
 
-describe('phantom pdf', function () {
+describe('fop pdf', function () {
   var reporter
 
   beforeEach(function () {

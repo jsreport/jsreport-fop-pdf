@@ -18,7 +18,7 @@ describe('fop pdf', function () {
       template: { content: fs.readFileSync(path.join(__dirname, '/test.fo')), recipe: 'fop-pdf', engine: 'none' }
     }
 
-    return reporter.render(request, {}).then(function (response) {
+    return reporter.render(request).then(function (response) {
       response.content.toString().should.containEql('%PDF')
     })
   })

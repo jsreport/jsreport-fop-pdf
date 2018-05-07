@@ -15,10 +15,10 @@ describe('fop pdf', function () {
 
   it('should not fail when rendering', function () {
     var request = {
-      template: { content: fs.readFileSync(path.join(__dirname, '/test.fo')), recipe: 'fop-pdf', engine: 'none' }
+      template: { content: fs.readFileSync(path.join(__dirname, '/test.fo')).toString(), recipe: 'fop-pdf', engine: 'none' }
     }
 
-    return reporter.render(request, {}).then(function (response) {
+    return reporter.render(request).then(function (response) {
       response.content.toString().should.containEql('%PDF')
     })
   })

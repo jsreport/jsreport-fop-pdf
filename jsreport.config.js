@@ -1,7 +1,7 @@
 module.exports = {
-  'name': 'fop-pdf',
-  'main': 'lib/fop.js',
-  'optionsSchema': {
+  name: 'fop-pdf',
+  main: 'lib/fop.js',
+  optionsSchema: {
     extensions: {
       'fop-pdf': {
         type: 'object',
@@ -12,5 +12,5 @@ module.exports = {
       }
     }
   },
-  'hasPublicPart': false
+  hasPublicPart: false
 }

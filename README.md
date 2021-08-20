@@ -1,3 +1,6 @@
+**⚠️ This extension is deprecated and is compatible only with the jsreport v2
+--
+
 # jsreport-fop-pdf
 [![NPM Version](http://img.shields.io/npm/v/jsreport-fop-pdf.svg?style=flat-square)](https://npmjs.com/package/jsreport-fop-pdf)
 

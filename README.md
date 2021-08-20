@@ -1,4 +1,4 @@
-**⚠️ This extension is deprecated and is compatible only with the jsreport v2
+⚠️ This extension is deprecated and is compatible only with the jsreport v2
 --
 
 # jsreport-fop-pdf
